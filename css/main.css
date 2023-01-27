@@ -126,11 +126,7 @@ body {
     display: flex;
 }
 
-.canvas {
-    width: 55vw;
-    height: 50vw;
-    margin-left: 55px;
-}
+
 
 #chart {
     height: 35vw;
@@ -151,6 +147,17 @@ body {
     border-bottom-right-radius: 7px;
 }
 
+#myChart {
+    width: 62vw;
+    height: 62vw;
+}
+
+.canvas {
+    width: 62vw;
+    height: 62vw;
+}
+
+
 @media screen and (max-width: 750px) {
     .sidenav a {
         font-size: 18px;
@@ -163,15 +170,19 @@ body {
     .alramicon {
         display: none;
     }
-    
+
     #chart {
-    height: 50vw;
-}
-    
+        height: 50vw;
+    }
+
+    #myChart {
+        width: 80vw;
+        height: 80vw;
+    }
+
     .canvas {
-    width: 70vw;
-    height: 30vw;
-    margin-left: 25px;
-}
+        width: 80vw;
+        height: 80vw;
+    }
 
 }
